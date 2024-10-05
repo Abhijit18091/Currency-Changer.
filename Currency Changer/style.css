@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(world-travel-map.jpg);
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.container {
+    /* background-color: #fff; */
+    background-image: url(https://www.germanwatch.org/sites/default/files/styles/conflux_3xl/public/images/Titelbild-Finanzierung.jpg?itok=VC0ufKCo);
+    margin: 250px auto;
+    width: 750px;
+    height: 500px;
+    padding: 4px 1px;
+    border-radius: 0px 170px 0px 170px;
+    display: flex;
+    
+    flex-direction: column;
+    gap: 1.1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1 {
+    font-size: 4rem;
+    color: rgb(135, 2, 2);
+    
+}
+
+.currency-section {
+    padding: 10px;
+    width: 80%;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.currency-section input {
+    border: none;
+    padding: 8px;
+    outline: none;
+    font-size: 1rem;
+    border: 1px solid #000000;
+}
+
+.currency-section select {
+    /* border: 1px solid #000000; */
+    outline: none;
+    padding: 10px 20px 10px 10px;
+    font-size: 1rem;
+    text-align: right;
+}
+
+.swap {
+    padding: 10px 10px 10px 10px;
+    color: rgb(0, 0, 0);
+    /* border-radius: 5px; */
+    /* border: 3px solid #000000; */
+    background-color: #f3f3f3;
+    font-size: 1.5rem;
+    margin: 20PX;
+}
+
+.rate-container p {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.rate-container h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.h1 {
+    background-color: #ccc;
+}
